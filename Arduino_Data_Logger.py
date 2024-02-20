@@ -159,7 +159,7 @@ file_entry.grid(row=2, column=1, padx=10, pady=5, sticky="w")
 label_format = tk.Label(root, text="Select/Type File Format:", fg="black")
 label_format.grid(row=3, column=0, padx=10, pady=5, sticky="w")
 
-formats = [".dat", ".txt", ".xlsx", ".csv"]  # Add more formats as needed
+formats = [".xls", ".dat", ".txt", ".xlsx", ".csv"]  # Add more formats as needed
 format_dropdown = Combobox(root, values=formats, width=5)
 format_dropdown.set(".dat")  # Set a default format
 format_dropdown.grid(row=3, column=1, padx=10, pady=5, sticky="w")
